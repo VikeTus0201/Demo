@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* font-size: 0.8vw; */
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+    height: 120%;
+}
+.mb{
+    margin-bottom: 30px;
+}
+
+.demo{
+    background-color: rgb(68, 143, 208);
+    min-height: 100px;
+}
+.header{
+    background-color: #ddedd5;
+    border: 1px #090 solid ;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+.header h1{
+    color: #8ba65e;
+    margin-left: 15px;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px #090 solid ;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+    /* height: 40px;
+    line-height: 40px;  */
+    
+}
+.menu{
+    background-color: black;
+    color: #ccc;
+    border-radius: 5px;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: right;
+    width: 24%;
+    
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid ;
+}
+.boxcontent{
+    border: 1px #ccc solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 300px;
+    padding: 20px;
+}
+.boxcontent2{
+    border: 1px #ccc solid;
+    /* height: 300px; */
+    background-color: #eee;
+}
+.boxfooter{
+    padding: 10px;
+    background: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #ccc solid ;
+    border-right: 1px #ccc solid ;
+    border-bottom: 1px #ccc solid ;
+}
+.banner{
+    /* min-height: 350px;
+    min-width: 100%; */
+    text-align: center;
+}
+.banner img{
+    height: 50px;
+    width: 50px;
+}
+.boxsp{
+    float: left;
+    width: 32%;
+    min-height: 200px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+.boxsp .img{
+    min-height: 200px;
+    text-align: center;
+}
+.boxsp p{
+    text-align: center;
+}
+.boxsp a{
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+.boxsp a:hover{
+    text-decoration: underline;
+}
+.img img{
+    /* width: 60%; */
+    height: 220px;
+}
+.menu ul{
+    padding: 0 10px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 10px;
+}
+.menu ul li a{
+    color:#a48e7a;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: white;
+    font-size: 1.1vw;
+}
+
+/* Box tài khoản */
+.formtaikhoan ,.formcontent{
+    line-height: 200%;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.formcontent input[type="text"]
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+.formtaikhoan .check{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    margin: 10px 0;
+}
+.formtaikhoan input[type="submit"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"]{
+    min-width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+.formtaikhoan input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover{
+    background-color: #ccc;
+}
+.formtaikhoan  li a{
+    text-decoration: none;
+}
+.formtaikhoan  li a:hover{
+    text-decoration: underline;
+}
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background: #fff;
+    border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: #ccc;
+}
+.searchbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+.top10 img{
+    width: 20%;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+.top10 a{
+    text-decoration: none;
+}
+.top10 a:hover{
+    text-decoration: underline;
+    color: #8ba65e;
+}
+/* ADMIN */
+.formtitle{
+    background-color: #eee;
+    border: 1px solid #ccc;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+    height: 30px;
+    line-height: 30px;
+}
+.formtitle a{
+    text-decoration: none;
+}
+.formtitle a:hover{
+    color: #090;
+}
+.formcontent{
+    padding: 20px 0px;
+}
+table{
+    min-width: 100%;
+    padding: 15px 0px;
+    
+}
+table th:nth-child(1){
+    width: 10%;
+    background: #ccc;
+    
+}
+table th:nth-child(2){
+    width: 30%;
+    background: #ccc;
+   
+}
+table th:nth-child(3){
+    width: 40%;
+    background: #ccc;
+    
+}
+table th:nth-child(4){
+    width: 20%;
+    background: #ccc;
+    
+}
+table td{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
